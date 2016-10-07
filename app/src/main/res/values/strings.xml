@@ -1,0 +1,66 @@
+<resources>
+    <!-- Splash e Slide Screen -->
+    <string name="app_name">T-Mind</string>
+    <string name="slide_01_title">Desenvolva seu raciocínio lógico e sistematize seus problemas</string>
+    <string name="slide_01_subtitle"><![CDATA[<<<Deslize]]></string>
+    <string name="slide_02_title">Resolva questões do seu cotidiano</string>
+    <string name="slide_03_title">Visualize o seu progresso durante e após os exercícios</string>
+    <string name="button_start_slide_04">Iniciar</string>
+    <string name="button_sing_in_slide_04">Criar uma conta</string>
+    <string name="start_app">Vamos começar?</string>
+
+    <!-- Screen Register -->
+    <string name="activity_register">Registrar-se</string>
+    <string name="app_name_register">Contas</string>
+    <string name="new_account">Criar uma nova conta</string>
+    <string name="new_account_description">A sua conta do t-mind lhe dá acesso ao aplicativo e as atividades</string>
+    <string name="about_count">Informações necessárias para sua conta t-mind</string>
+    <string name="hint_name">Nome</string>
+    <string name="hint_lastname">Sobrenome</string>
+    <string name="hint_username">Usuário</string>
+    <string name="action_register_short">Registrar</string>
+    <string name="hint_password">Senha</string>
+    <string name="text_button_register">Cadastrar</string>
+
+    <!-- Screen Login -->
+    <string name="activity_login">Entrar</string>
+    <string name="prompt_email">Usuário</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">ENTRAR</string>
+    <string name="action_sign_in_short">ENTRAR</string>
+    <string name="button_login">Entrar</string>
+
+    <!-- Strings related to login -->
+    <string name="error_invalid_email">Nome de usuário inválido</string>
+    <string name="no_register_email">Este nome de usuário não está cadastrado</string>
+    <string name="error_invalid_password">Senha no formato inválido, deve conter entre 4 e 16 caracteres</string>
+    <string name="error_incorrect_password">A senha está incorreta</string>
+    <string name="error_field_required">Este campo é necessário</string>
+    <string name="username_existing">Nome de usuário já existe</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to Main Screen -->
+    <string name="main_menu_text_basic">Básico</string>
+    <string name="main_menu_text_medium">Intermediário</string>
+    <string name="main_menu_text_hard">Avançado</string>
+    <string name="description_image">image description</string>
+    <string name="button_start_level">Começar</string>
+    <string name="nav_drawer_settings_count">Configurações de Conta</string>
+
+    <!-- Strings related to Level Screen -->
+    <string name="level_text_basic">Nível Básico</string>
+    <string name="level_description">Descrição do nível</string>
+    <string name="level_text_intermediate">Nível Intermediário</string>
+    <string name="level_text_advanced">Nível Avançado</string>
+
+    <!-- Strings related to Exercice Screen -->
+    <string name="exercice_button_verificar">Verificar</string>
+    <string name="exercice_button_continuar">Continuar</string>
+    <string name="exercice_alertDialog_title">Tem certeza que quer sair?</string>
+    <string name="exercice_alertDialog_message">Todo o progresso nesta ses~ao será perdido.</string>
+    <string name="exercice_alertDialog_positiveButton">Cancelar</string>
+    <string name="exercice_alertDialog_negativeButton">Desistir</string>
+    <string name="title_activity_ranking">Ranking</string>
+
+
+</resources>

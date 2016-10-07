@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.ufpb.ittalopessoa.t_mind.activities.MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_main"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+            app:popupTheme="@style/AppTheme.PopupOverlay" >
+
+            <br.com.ufpb.ittalopessoa.t_mind.util.JKAdobe
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/app_name"
+                android:textColor="@color/md_text_white"
+                android:textSize="@dimen/fontsize_headline"/>
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="@dimen/default_margin">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:id="@+id/button_basic"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/size_ico_menu"
+                android:layout_height="@dimen/size_ico_menu"
+                android:contentDescription="@string/description_image"
+                android:src="@drawable/ic_boy"
+                android:id="@+id/img1"/>
+
+            <br.com.ufpb.ittalopessoa.t_mind.util.RobotoMedium
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_menu_text_basic"
+                android:textColor="@color/md_red_700"
+                android:textSize="@dimen/fontsize_title"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/min_margin"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/med_margin"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:id="@+id/button_medium"
+                android:layout_marginRight="@dimen/min_margin"
+                android:layout_marginEnd="@dimen/min_margin"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/size_ico_menu"
+                    android:layout_height="@dimen/size_ico_menu"
+                    android:contentDescription="@string/description_image"
+                    android:src="@drawable/ic_man"
+                    android:id="@+id/img2"/>
+
+                <br.com.ufpb.ittalopessoa.t_mind.util.RobotoMedium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/main_menu_text_medium"
+                    android:textColor="@color/md_red_700"
+                    android:textSize="@dimen/fontsize_title"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/min_margin"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:id="@+id/button_hard"
+                android:layout_marginLeft="@dimen/min_margin"
+                android:layout_marginStart="@dimen/min_margin"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/size_ico_menu"
+                    android:layout_height="@dimen/size_ico_menu"
+                    android:contentDescription="@string/description_image"
+                    android:src="@drawable/ic_old"
+                    android:id="@+id/img3"/>
+
+                <br.com.ufpb.ittalopessoa.t_mind.util.RobotoMedium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/main_menu_text_hard"
+                    android:textColor="@color/md_red_700"
+                    android:textSize="@dimen/fontsize_title"
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/min_margin"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/default_margin">
+
+    <ProgressBar
+        android:id="@+id/load_exercice_objetive"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/default_margin"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/exercice_objetive_scroll"
+        android:scrollbars="none|vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <br.com.ufpb.ittalopessoa.t_mind.util.RobotoMedium
+                android:id="@+id/title_exer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Considerando que cada letra pode assumir um determinado valor. Qual será o valor final de “c” no problema a seguir?"
+                android:textColor="@color/md_text"
+                android:textSize="@dimen/fontsize_title" />
+
+            <br.com.ufpb.ittalopessoa.t_mind.util.RobotoRegular
+                android:id="@+id/subhead_exer2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="a = 3\nb = 5\na = b - a\nc = a + b"
+                android:textColor="@color/md_secondary_text_icons"
+                android:textSize="@dimen/fontsize_subhead" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/item1_exerc2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/raised_button_border_grey"
+                    android:clickable="true"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <br.com.ufpb.ittalopessoa.t_mind.util.RobotoRegular
+                        android:id="@+id/text_item1_exerc2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="c = 9"
+                        android:textSize="@dimen/fontsize_subhead"
+                        android:textColor="@color/md_text" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/item2_exerc2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/raised_button_border_grey"
+                    android:clickable="true"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <br.com.ufpb.ittalopessoa.t_mind.util.RobotoRegular
+                        android:id="@+id/text_item2_exerc2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="c = 8"
+                        android:textSize="@dimen/fontsize_subhead"
+                        android:textColor="@color/md_text" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/item3_exerc2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/raised_button_border_grey"
+                    android:clickable="true"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <br.com.ufpb.ittalopessoa.t_mind.util.RobotoRegular
+                        android:id="@+id/text_item3_exerc2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="c = 10"
+                        android:textSize="@dimen/fontsize_subhead"
+                        android:textColor="@color/md_text" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/item4_exerc2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/raised_button_border_grey"
+                    android:clickable="true"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <br.com.ufpb.ittalopessoa.t_mind.util.RobotoRegular
+                        android:id="@+id/text_item4_exerc2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="c = 5"
+                        android:textSize="@dimen/fontsize_subhead"
+                        android:textColor="@color/md_text" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_exerc_objetive"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_button_height"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/btn_primary_disable"
+                android:padding="8dp"
+                android:text="@string/exercice_button_verificar"
+                android:textAllCaps="true"
+                android:textColor="@color/md_text_white" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

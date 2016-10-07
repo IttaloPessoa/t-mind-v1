@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.ufpb.ittalopessoa.t_mind.activities.RankingActivity"
+    tools:showIn="@layout/activity_ranking">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+        <br.com.ufpb.ittalopessoa.t_mind.util.RobotoMedium
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/fontsize_body_2"
+            android:textColor="@color/md_secondary_text_icons"
+            android:text="Sua Pontuação"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ProgressBar
+                        style="?android:attr/progressBarStyleLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:progress="38"
+                        android:max="50"
+                        android:indeterminate="false"
+                        android:id="@+id/progress_basic" />
+
+                    <br.com.ufpb.ittalopessoa.t_mind.util.RobotoMedium
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/fontsize_subhead"
+                        android:text="38"
+                        android:id="@+id/cont_basic"
+                        android:gravity="center"
+                        android:textColor="@color/md_text"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+                <br.com.ufpb.ittalopessoa.t_mind.util.RobotoMedium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/fontsize_subhead"
+                    android:text="Básico"
+                    android:gravity="center"
+                    android:textColor="@color/md_text"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ProgressBar
+                        style="?android:attr/progressBarStyleLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:progress="12"
+                        android:max="50"
+                        android:indeterminate="false"
+                        android:id="@+id/progress_inter" />
+
+                    <br.com.ufpb.ittalopessoa.t_mind.util.RobotoMedium
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/fontsize_subhead"
+                        android:text="12"
+                        android:id="@+id/cont_inter"
+                        android:gravity="center"
+                        android:textColor="@color/md_text"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+                <br.com.ufpb.ittalopessoa.t_mind.util.RobotoMedium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/fontsize_subhead"
+                    android:text="Intermediário"
+                    android:gravity="center"
+                    android:textColor="@color/md_text"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ProgressBar
+                        style="?android:attr/progressBarStyleLarge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:progress="0"
+                        android:max="50"
+                        android:indeterminate="false"
+                        android:id="@+id/progress_advanced" />
+
+                    <br.com.ufpb.ittalopessoa.t_mind.util.RobotoMedium
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/fontsize_subhead"
+                        android:text="0"
+                        android:id="@+id/cont_advanced"
+                        android:gravity="center"
+                        android:textColor="@color/md_text"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true" />
+
+                </RelativeLayout>
+
+                <br.com.ufpb.ittalopessoa.t_mind.util.RobotoMedium
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/fontsize_subhead"
+                    android:text="Avançado"
+                    android:gravity="center"
+                    android:textColor="@color/md_text"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <br.com.ufpb.ittalopessoa.t_mind.util.RobotoMedium
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_horizontal_margin"
+            android:textSize="@dimen/fontsize_body_2"
+            android:textColor="@color/md_secondary_text_icons"
+            android:text="Seus amigos"/>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none|vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                                        <br.com.ufpb.ittalopessoa.t_mind.util.RobotoMedium
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin"
+                        android:textSize="@dimen/fontsize_subhead"
+                        android:layout_marginLeft="16dp"
+                        android:textColor="@color/md_text"
+                        android:text="Ittalo Pessoa"/>
+
+                    <br.com.ufpb.ittalopessoa.t_mind.util.RobotoMedium
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin"
+                        android:textSize="@dimen/fontsize_subhead"
+                        android:layout_marginLeft="16dp"
+                        android:textColor="@color/md_secondary_text_icons"
+                        android:text="96 PE"
+                        android:gravity="end"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <br.com.ufpb.ittalopessoa.t_mind.util.RobotoMedium
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin"
+                        android:textSize="@dimen/fontsize_subhead"
+                        android:layout_marginLeft="16dp"
+                        android:textColor="@color/md_text"
+                        android:text="Chico Pessoa"/>
+
+                    <br.com.ufpb.ittalopessoa.t_mind.util.RobotoMedium
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin"
+                        android:textSize="@dimen/fontsize_subhead"
+                        android:layout_marginLeft="16dp"
+                        android:textColor="@color/md_secondary_text_icons"
+                        android:text="72 PE"
+                        android:gravity="end"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <br.com.ufpb.ittalopessoa.t_mind.util.RobotoMedium
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin"
+                        android:textSize="@dimen/fontsize_subhead"
+                        android:layout_marginLeft="16dp"
+                        android:textColor="@color/md_text"
+                        android:text="Luan Pessoa"/>
+
+                    <br.com.ufpb.ittalopessoa.t_mind.util.RobotoMedium
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin"
+                        android:textSize="@dimen/fontsize_subhead"
+                        android:layout_marginLeft="16dp"
+                        android:textColor="@color/md_secondary_text_icons"
+                        android:text="32 PE"
+                        android:gravity="end"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:orientation="horizontal">
+
+                    <br.com.ufpb.ittalopessoa.t_mind.util.RobotoMedium
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin"
+                        android:textSize="@dimen/fontsize_subhead"
+                        android:layout_marginLeft="16dp"
+                        android:textColor="@color/md_text"
+                        android:text="João Pessoa"/>
+
+                    <br.com.ufpb.ittalopessoa.t_mind.util.RobotoMedium
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/activity_horizontal_margin"
+                        android:textSize="@dimen/fontsize_subhead"
+                        android:layout_marginLeft="16dp"
+                        android:textColor="@color/md_secondary_text_icons"
+                        android:text="16 PE"
+                        android:gravity="end"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

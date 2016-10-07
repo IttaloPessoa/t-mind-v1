@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_color"
+    tools:context=".activities.SplashActivity">
+
+    <ImageView
+        android:layout_width="@dimen/size_circuit_largura"
+        android:layout_height="@dimen/size_circuit_altura"
+        android:layout_marginTop="@dimen/default_margin"
+        android:id="@+id/image_splash"
+        android:contentDescription="@string/description_image"
+        android:src="@drawable/ic_circuit_app" />
+
+
+    <ImageView
+        android:layout_width="@dimen/size_appname_largura"
+        android:layout_height="@dimen/size_appname_altura"
+        android:id="@+id/image_app"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="@dimen/default_margin"
+        android:contentDescription="@string/description_image"
+        android:src="@drawable/app_name_white" />
+
+</RelativeLayout>

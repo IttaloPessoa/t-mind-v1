@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/default_margin">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="@dimen/size_img_slide3_largura"
+        android:layout_height="@dimen/size_img_slide3_altura"
+        android:contentDescription="@string/description_image"
+        android:src="@drawable/ic_progress" />
+
+    <br.com.ufpb.ittalopessoa.t_mind.util.RobotoMedium
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/slide_03_title"
+        android:textColor="@color/md_red_700"
+        android:textSize="@dimen/fontsize_title" />
+
+</LinearLayout>
